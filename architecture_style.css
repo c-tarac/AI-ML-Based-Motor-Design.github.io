@@ -74,3 +74,10 @@ width:567px;
 height:420px; 
 margin-left:-250px; 
 }
+
+/*-----for architectur in coloumn--------*/
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
