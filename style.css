@@ -12,7 +12,7 @@
   .card-body {
     flex: 1 0 auto;
   } */
-  .card {
+.card {
     margin : 2rem;
   }
 .navbar-brand {
@@ -22,6 +22,7 @@
 .container-fluid {
     width: 70vw;
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
