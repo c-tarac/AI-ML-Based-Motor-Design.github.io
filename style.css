@@ -12,7 +12,7 @@
   .card-body {
     flex: 1 0 auto;
   } */
-.card {
+  .card {
     margin : 2rem;
   }
 .navbar-brand {
@@ -22,7 +22,6 @@
 .container-fluid {
     width: 70vw;
 }
-
 .header{
     min-height: 100vh;
     width: 100%;
@@ -170,9 +169,10 @@ nav .fa{
     padding-top: 100px;
 }
 h1{
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 600;
     color: white;
+    font-variant: small-caps;
     
 }
 p{
@@ -264,31 +264,42 @@ h3{
     width: 80%;
     margin:auto;
     padding-top: 100px;
-    text-align: center;
+    text-align: justify;
 }
 .contributor-col{
-    flex-basis: 44%;
+    flex-basis: 47%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-align: left;
     background: #fff3f3;
     padding: 25px;
     cursor: pointer;
     display: flex;
+    text-align: justify;
 }
 .contributor-col img{
     height: 100px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 100%;
+    border-bottom: black;
 }
 .contributor-col p{
-    padding: 0;
+    padding: 0px;
+    text-align: left;
 }
 .contributor-col h3{
     margin-top: 15px;
     text-align: left;
+}   
+
+/* ---------------footar----------------- */
+.footar1 h1{
+    font-size: 20px;
 }
+/* --------------------------------- */
+
+
 /*-----Media view for contributors-----------*/
 @media(max-width:700px){
     .contributor-col img{
@@ -307,6 +318,7 @@ h3{
     }
     
 }
+
 /*-------------------------------------------------footer------*/
 /*
 .footer1{
