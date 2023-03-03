@@ -253,6 +253,23 @@ h3{
     height: 60vh; 
 }
 
+.back {
+    display: block;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -200px;
+    margin-left: 1700px;
+
+}
+
+.back-anchor {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
 /*------------------------media view for videos---------*/
 @media(max-width: 700px){
     .sequence1{
