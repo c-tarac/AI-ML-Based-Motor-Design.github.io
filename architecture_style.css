@@ -37,7 +37,7 @@ h1{
     /* above line is for border of blocks */
     
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 28px;
     font-style: oblique;
     background: rgba(185, 172, 49, 0.308);
     opacity: 0.8;
@@ -49,6 +49,24 @@ h1{
     border: 1px solid #000000;
     background: #3c741c;
     transition: 1s;
+}
+.iitglogo img{
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    display: inline-block;
+    /* border: 1px solid #fff; */
+    /* background: #ffffff; */
+    opacity: 0.8;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    transform: translate(-50%,-50%);
 }
 
 #popup
@@ -68,8 +86,8 @@ margin-left:-250px;
     align-items: center;
     text-align: center;
     text-decoration: none;
-    margin-top: 50px;
-    margin-left: 450px;
+    margin-top: -600px;
+    margin-left: 1700px;
     
 
 }
