@@ -173,6 +173,7 @@ h1{
     font-weight: 600;
     color: white;
     font-variant: small-caps;
+    /* background-color: green; */
     
 }
 p{
@@ -251,6 +252,7 @@ h3{
     width: 50%;
     height: 60vh; 
 }
+
 /*------------------------media view for videos---------*/
 @media(max-width: 700px){
     .sequence1{
