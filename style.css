@@ -276,6 +276,35 @@ h3{
     }
      
 }
+
+/* -----------------------------Visitors---------------------------- */
+.visitors{
+    widows: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    /* padding-top: 10px; */
+}
+.visitors-col h3{
+    text-align: center;
+    margin-top: 0px;
+    margin: 10px 0;
+    font-size: 28px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------contributors-----------------------*/
 .contributer{
     width: 80%;
