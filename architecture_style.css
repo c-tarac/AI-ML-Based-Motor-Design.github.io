@@ -50,7 +50,7 @@ h1{
     background: #3c741c;
     transition: 1s;
 }
-.iitglogo img{
+/* .iitglogo img{
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -67,7 +67,7 @@ h1{
     top: 25%;
     left: 90%;
     transform: translate(-50%,-50%);
-}
+} */
 
 #popup
 {
@@ -86,8 +86,9 @@ margin-left:-250px;
     align-items: center;
     text-align: center;
     text-decoration: none;
-    margin-top: -600px;
-    margin-left: 1700px;
+    margin-right: 0px;
+    margin-left: 800px;
+    background-color: rgb(132, 116, 223);
     
 
 }
