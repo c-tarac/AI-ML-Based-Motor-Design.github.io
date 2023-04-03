@@ -45,6 +45,28 @@ body {
 	line-height:normal;
 }
 
+.hero-btn{
+    /* display: inline-block;  */
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    /* border: 8px solid rgb(86, 156, 70); */   
+    /* above line is for border of blocks */
+    
+    padding: 12px 20px;
+    font-size: 20px;
+    font-style: oblique;
+    background: rgba(85, 8, 209, 0.308);
+    opacity: 0.8;
+    
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #000000;
+    background: #142808;
+    transition: 1s;
+}
+
 /* ----------------header--------------- */
 div.sticky {
     position: -webkit-sticky;
