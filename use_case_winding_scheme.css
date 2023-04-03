@@ -1,0 +1,119 @@
+
+
+.use_cases{
+    widows: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    background-color:green;
+    
+    
+    
+}
+p{
+    color: #777;
+    font-size: 30px;
+    font-weight: 300px;
+    outline-width: 22px;
+    padding: 10px;
+}
+
+.use_cases-col{
+    flex-basis: 31%;
+    background: #ffffff;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: 20;
+    margin: 10px 0;
+    background-color:#ffffff;
+}
+.hero-btn{
+    /* display: inline-block;  */
+    text-decoration: none;
+    color:whitesmoke;
+    border: 8px solid rgb(202, 228, 196);
+    padding: 12px 20px;
+    font-size: 20px;
+    font-style: oblique;
+    background: rgb(234, 158, 200);
+    
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+#popup
+{
+position:absolute;
+z-index:99;
+display:block;
+top:200px;
+left:50%;
+width:567px;
+height:420px; 
+margin-left:-250px; 
+}
+.back {
+    display: block;
+    align-items: center;
+    text-align: right;
+    text-decoration: none;
+    /* margin-top: 0px;
+    margin-left: 1700px; */
+    background-color: rgb(132, 116, 223);
+
+}
+
+.back-anchor {
+    text-decoration: none;
+    color: black;
+}
+/* ----------------header--------------- */
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: green;
+    padding: 0px;
+    font-size: 12px;
+  }
+/* ----------------footar-back-button--------------- */
+.footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    background-color: rgb(234, 158, 7);
+    color: white;
+    text-align: center;
+ }
+/*-----for architectur in coloumn--------*/
+@media(max-width: 700px){
+    .use_cases{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .use_cases h1{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+}
