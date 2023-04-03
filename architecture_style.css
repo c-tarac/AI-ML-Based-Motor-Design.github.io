@@ -98,10 +98,18 @@ margin-left:-250px;
     color: white;
     
 }
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: green;
+    padding: 0px;
+    font-size: 12px;
+  }
 
 
 /*-----for architectur in coloumn--------*/
-@media(max-width: 700px){
+@media(max-width: 600px){
     .Architecture{
         flex-direction: column;
         height: auto;
