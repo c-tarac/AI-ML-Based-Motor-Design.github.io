@@ -10,11 +10,19 @@ h1{
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    background-color:green;
-    
-    
-    
+    background-color:green; 
+    padding-bottom: 0%;   
+    padding-bottom: 0%;
 }
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    background-color:rgba(5, 143, 69, 0.253);    
+}
+
+
 p{
     color: #777;
     font-size: 30px;
