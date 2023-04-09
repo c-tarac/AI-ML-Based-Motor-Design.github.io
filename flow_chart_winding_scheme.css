@@ -17,7 +17,10 @@ h1{
 }
 
 h2{
+    font-size: 28px;
+    font-weight: 400;
     text-align: left;
+    background-color:rgba(5, 143, 69, 0.253);    
 }
 p{
     color: #777;
