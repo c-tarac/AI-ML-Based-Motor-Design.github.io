@@ -65,6 +65,39 @@ body {
     background: #4dc706;
     transition: 1s;
 }
+/* ----------------button1-------------------- */
+.button1 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #19a004;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.button:hover {
+	background-color: #2980b9;
+}
+
+/* -----------------box1------------------- */
+.box1 {
+	background-color: rgb(241, 225, 228);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(73, 190, 27, 0.319);
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+    font-weight: bold;
+	line-height: 1.5;
+	color: #333;
+	text-align: justify;
+	margin: 50px auto;
+	max-width: 1320px;
+}
 
 /* ----------------header--------------- */
 div.sticky {
