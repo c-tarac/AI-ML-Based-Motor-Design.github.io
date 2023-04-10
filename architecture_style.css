@@ -116,3 +116,42 @@ div.sticky {
     font-size: 12px;
   }
 
+
+
+  /* Style the message container */
+.message {
+    background-color: #f9c9c9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Style the message text */
+  .message p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Animate the message text */
+  .message p {
+    animation-name: move-text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  /* Define the animation */
+  @keyframes move-text {
+    from {
+      transform: translateX(-40);
+    }
+    to {
+      transform: translateX(40px);
+    }
+  }
+
