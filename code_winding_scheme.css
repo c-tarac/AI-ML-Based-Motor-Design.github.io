@@ -1,0 +1,165 @@
+
+
+.use_cases{
+    widows: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    background-color:green;   
+}
+
+/* for cards */
+/* Style for the card container */
+.card-container {
+display: flex;
+justify-content: space-around;
+margin: 150px 0;
+}
+
+/* Style for the card */
+.card {
+width: 400px;
+height: 200px;
+background-color: #addda9;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+position: relative;
+transition: transform 0.3s ease-in-out;
+}
+
+/* Style for the card hover effect */
+.card:hover {
+transform: translateY(-10px);
+}
+
+/* Style for the card title */
+.card h2 {
+font-size: 28px;
+margin: 20px 0 0 20px;
+color: #333;
+}
+
+/* Style for the card subtitle */
+.card h3 {
+font-size: 20px;
+margin: 5px 0 0 20px;
+color: #666;
+}
+
+/* Style for the card content */
+.card p {
+font-size: 16px;
+margin: 10px 20px;
+color: #999;
+}
+
+/* Style for the card background image */
+.card::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+opacity: 0.7;
+}
+
+/* Style for the single layer winding card */
+.card-single-layer {
+background-image: url('single-layer-winding.jpg');
+}
+
+/* Style for the double layer winding card */
+.card-double-layer {
+background-image: url('double-layer-winding.jpg');
+}
+
+/* Style for the link button */
+.link-button {
+display: block;
+width: 100%;
+padding: 10px;
+text-align: center;
+background-color: #f44336;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for the link button hover effect */
+.link-button:hover {
+background-color: #ff6659;
+}     
+
+
+
+
+/* for pdf */
+iframe {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+
+/* for back button */
+.back {
+    display: block;
+    align-items: center;
+    text-align: right;
+    text-decoration: none;
+    /* margin-top: 0px;
+    margin-left: 1700px; */
+    background-color: rgb(132, 116, 223);
+
+}
+
+.back-anchor {
+    text-decoration: none;
+    color: black;
+}
+/* ----------------header--------------- */
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: green;
+    padding: 0px;
+    font-size: 12px;
+  }
+/* ----------------footar-back-button--------------- */
+.footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    background-color: rgb(234, 158, 7);
+    color: white;
+    text-align: center;
+ }
+/*-----for architectur in coloumn--------*/
+@media(max-width: 700px){
+    .use_cases{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .use_cases h1{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+}
